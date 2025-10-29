@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FISC Bungeoppang — Premium</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+  <!-- Styles & Script -->
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <img src="images/logo.png" alt="FISC Logo" class="brand-logo">
+        <div>
+          <div class="brand-title">FISC <span>Bungeoppang</span></div>
+          <div class="brand-sub">Hangat • Lembut • Premium</div>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Main">
+        <a href="#beranda">Beranda</a>
+        <a href="#menu">Produk</a>
+        <a href="#lokasi">Lokasi</a>
+        <a href="#review">Review</a>
+        <a href="#tentang">Tentang</a>
+        <button id="contactBtn" class="nav-contact" aria-haspopup="true" aria-expanded="false">Hubungi Kami ▾</button>
+      </nav>
+    </div>
+
+    <!-- contact dropdown (animated) -->
+    <div id="contactDropdown" class="contact-dropdown" aria-hidden="true">
+      <a href="https://wa.me/628973852390" target="_blank" class="contact-item" rel="noopener">
+        <img src="https://img.icons8.com/ios-filled/40/ffffff/whatsapp.png" alt="WA"><span>WhatsApp</span>
+      </a>
+      <a href="https://www.instagram.com/fisc.co?igsh=MWd6YTVyMWRhN3Ax" target="_blank" class="contact-item" rel="noopener">
+        <img src="https://img.icons8.com/ios-filled/40/ffffff/instagram-new.png" alt="IG"><span>Instagram</span>
+      </a>
+      <a href="https://www.tiktok.com/@fisc.co?_t=ZS-8z3Gvj0aR8s&_r=1" target="_blank" class="contact-item" rel="noopener">
+        <img src="https://img.icons8.com/ios-filled/40/ffffff/tiktok.png" alt="TT"><span>TikTok</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="beranda" class="hero-section">
+      <div class="wrap hero-card">
+        <h1>Rasakan Manis & Hangatnya <span>FISC Bungeoppang</span></h1>
+        <p class="lead">Cokelat, keju, atau gurih — setiap gigitan menghadirkan rasa hangat dan elegan.</p>
+        <div class="hero-actions">
+          <a href="menu.html" class="btn primary">Lihat Menu Favorit</a>
+          <a href="#lokasi" class="btn ghost">Lihat Lokasi</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU FAVORIT (preview) -->
+    <section id="menu" class="section">
+      <div class="wrap section-inner">
+        <h2 class="section-title">Menu Favorit Kami</h2>
+        <p class="section-sub">Pilihan hati pelanggan — varian rasa terbaik FISC.</p>
+
+        <div class="cards-grid">
+          <article class="card">
+            <img class="card-img" src="https://i.imgur.com/mRr1F1u.png" alt="FISC Cokelat">
+            <h3>FISC Cokelat</h3>
+            <p class="card-desc">Roti ikan isi cokelat premium yang lumer di mulut.</p>
+            <button class="btn order-btn" data-name="FISC Cokelat">Pesan Sekarang</button>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="https://i.imgur.com/gy6plWd.png" alt="FISC Keju">
+            <h3>FISC Keju</h3>
+            <p class="card-desc">Lelehan keju gurih di dalam roti ikan yang lembut.</p>
+            <button class="btn order-btn" data-name="FISC Keju">Pesan Sekarang</button>
+          </article>
+
+          <article class="card">
+            <img class="card-img" src="https://i.imgur.com/9WzVtxq.png" alt="FISC Gurih">
+            <h3>FISC Gurih</h3>
+            <p class="card-desc">Renyah di luar, lembut di dalam — rasa yang pas.</p>
+            <button class="btn order-btn" data-name="FISC Gurih">Pesan Sekarang</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOKASI -->
+    <section id="lokasi" class="section light">
+      <div class="wrap section-inner location-card">
+        <div class="location-map">
+          <a href="https://maps.app.goo.gl/AkvmtYLtok5r3KJb7" target="_blank" rel="noopener">
+            <img src="https://i.imgur.com/oVtW0uU.png" alt="Map FISC - klik untuk buka" class="map-img">
+          </a>
+        </div>
+        <div class="location-info">
+          <h3>Alamat Kami</h3>
+          <p class="muted"><strong>Jl. Tabah Raya No.1, Kelapa Gading, Jakarta Utara 14240</strong></p>
+          <p class="muted"><strong>Jam Operasional:</strong><br>Senin–Sabtu 09:00–21:00</p>
+          <div class="location-actions">
+            <a href="https://maps.app.goo.gl/AkvmtYLtok5r3KJb7" target="_blank" class="btn primary">Buka Maps</a>
+            <a href="#" class="btn ghost">Pembayaran</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEW -->
+    <section id="review" class="section">
+      <div class="wrap section-inner">
+        <h2 class="section-title">Berikan Pendapatmu</h2>
+        <p class="section-sub">Pilih bintang dan tulis komentar — tampil rapi di bawah.</p>
+
+        <div class="review-box">
+          <div class="rating" id="rating">
+            <span class="star" data-value="1">★</span>
+            <span class="star" data-value="2">★</span>
+            <span class="star" data-value="3">★</span>
+            <span class="star" data-value="4">★</span>
+            <span class="star" data-value="5">★</span>
+          </div>
+
+          <input id="reviewName" class="input" type="text" placeholder="Nama (mis. Rusdi)">
+          <textarea id="reviewText" class="textarea" rows="4" placeholder="Tulis pendapatmu..."></textarea>
+          <div class="review-actions">
+            <button id="submitReview" class="btn primary">Kirim Review</button>
+          </div>
+        </div>
+
+        <div id="reviewsList" class="reviews-list" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- TENTANG -->
+    <section id="tentang" class="section light small-pad">
+      <div class="wrap section-inner center">
+        <h2 class="section-title">Tentang Kami</h2>
+        <p class="section-sub">FISC Bungeoppang menyajikan cita rasa autentik dengan sentuhan lokal. Bahan premium, rasa hangat, pelayanan ramah.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER (baru) -->
+  <footer class="site-footer fade-in">
+    <div class="wrap footer-grid">
+      <div class="footer-brand-box">
+        <h3 class="footer-brand">FISC <span>Bungeoppang</span></h3>
+        <p class="footer-tagline">Kue Ikan Yang Nyasar Ke Perut Bukan Ke Hati</p>
+        <p class="footer-copy">© 2025 FISC Bungeoppang</p>
+      </div>
+
+      <div class="footer-links-box">
+        <h4>Navigasi</h4>
+        <a href="#beranda">Beranda</a>
+        <a href="#menu">Menu</a>
+        <a href="#lokasi">Lokasi</a>
+        <a href="#tentang">Tentang</a>
+      </div>
+
+      <div class="footer-team-box">
+        <h4>Kelompok Kami</h4>
+        <p>Aryo</p>
+        <p>Syadit</p>
+        <p>Tiara</p>
+        <p>Fadlan</p>
+        <p>Arie</p>
+      </div>
+
+      <div class="footer-social-box">
+        <h4>Ikuti Kami</h4>
+        <div class="footer-socials">
+          <a href="https://wa.me/628973852390" target="_blank" rel="noopener">
+            <img src="https://img.icons8.com/ios-filled/30/ffffff/whatsapp.png" alt="WhatsApp"><span>WhatsApp</span>
+          </a>
+          <a href="https://www.instagram.com/fisc.co?igsh=MWd6YTVyMWRhN3Ax" target="_blank" rel="noopener">
+            <img src="https://img.icons8.com/ios-filled/30/ffffff/instagram-new.png" alt="Instagram"><span>Instagram</span>
+          </a>
+          <a href="https://www.tiktok.com/@fisc.co?_t=ZS-8z3Gvj0aR8s&_r=1" target="_blank" rel="noopener">
+            <img src="https://img.icons8.com/ios-filled/30/ffffff/tiktok.png" alt="TikTok"><span>TikTok</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="gold-line"></div>
+      <p class="small-muted">© 2025 FISC • Crafted with 🤎 by Kelompok Kami</p>
+    </div>
+  </footer>
+
+</body>
+</html>
